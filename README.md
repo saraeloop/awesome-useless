@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="assets/awesome-useless-glasses.png" width="150" />
+<img src="assets/awesome-useless-glasses.png" width="200" />
+
+<br>
 
 [![awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![useless](https://img.shields.io/badge/useless-100%25-brightgreen)]()
