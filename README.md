@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/awesome-useless-glasses.png" width="150" />
+<img src="assets/awesome-useless-glasses.png" width="200" />
 
 # awesome-useless ✨
 
@@ -10,8 +10,7 @@
 [![PRs](https://img.shields.io/badge/PRs-useless%20only-red)]()
 [![Agent Hoot](https://img.shields.io/badge/certified-Agent%20Hoot%20🦉-blue)]()
 
-> 🏆 Submitted to the [DEV April Fools Challenge](https://dev.to/challenges/april-fools)
-> `#418challenge` `#devchallenge`
+🏆 Submitted to the [DEV April Fools Challenge](https://dev.to/challenges/april-fools) · `#418challenge` · `#devchallenge`
 
 </div>
 
