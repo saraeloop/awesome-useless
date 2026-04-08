@@ -1,5 +1,5 @@
 <div align="center">
-
+<img src="assets/awesome-useless-glasses.png" width="300" />
 # awesome-useless ✨
 
 > A curated list of awesome useless things.
@@ -10,11 +10,8 @@
 [![PRs](https://img.shields.io/badge/PRs-useless%20only-red)]()
 [![Agent Hoot](https://img.shields.io/badge/certified-Agent%20Hoot%20🦉-blue)]()
 
-**This is a russian doll.**
-Each layer contains something weirder.
-Agent Hoot is in all of them.
-
-🪆 → 🪆 → 🪆 → 🪆
+> 🏆 Submitted to the [DEV April Fools Challenge](https://dev.to/challenges/april-fools)
+> `#418challenge` `#devchallenge`
 
 </div>
 
