@@ -4,6 +4,19 @@ const DEMO_API_KEY = "YOUR_KEY_HERE";
 document.addEventListener('DOMContentLoaded', () => {
     console.log("HTTP 418: I am a teapot. Agent Hoot is also a teapot. This is classified.");
 
+    // Visitor Counter Logic
+    let count = localStorage.getItem('owls_visitor_count');
+    if (!count) {
+        count = 249;
+    }
+    count = parseInt(count) + 1;
+    localStorage.setItem('owls_visitor_count', count);
+    
+    const counterDisplay = document.querySelector('.visitor-counter span');
+    if (counterDisplay) {
+        counterDisplay.textContent = count.toString().padStart(6, '0');
+    }
+
     const intakeForm = document.getElementById('intake-form');
     const terminalScreen = document.getElementById('terminal-screen');
     const terminalOutput = document.getElementById('terminal-output');
@@ -12,11 +25,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const textarea = document.getElementById('website-content');
     const apiKeyInput = document.getElementById('api-key');
 
-    // Demo Data
+    // Demo Data - Modern Corporate Copy for high contrast transformation
     const demos = {
-        apple: "Apple.com: A minimal masterpiece of whitespace, expensive fonts, and rounded corners. It makes people feel wealthy just by scrolling. It is too clean. It must be hidden.",
-        google: "Google.com: The search bar is centered. There is too much white space. Where are the blinking banners? Where is the personality? It is a sterile void.",
-        twitter: "Twitter/X: A chaotic storm of modern UI components. Constant updates, 'For You' feeds, and a dark mode that is suspiciously sleek. Agent Hoot is very worried about the rebranding."
+        apple: "Apple: Think Different. Our goal is to design products that are at once beautiful and functional. Experience the seamless integration of hardware, software, and services. The new iPhone features a Pro-grade camera system and an A-series chip for unparalleled performance and efficiency.",
+        google: "Google: Our mission is to organize the world’s information and make it universally accessible and useful. We believe in the power of technology to solve problems and connect people. Search across images, news, and maps to find exactly what you need with our advanced AI-driven algorithms.",
+        twitter: "Twitter/X: What's happening in the world and what people are talking about right now. From breaking news and entertainment to sports and politics, get the full story with all the live commentary. Join the global conversation and share your thoughts with the community."
     };
 
     document.getElementById('demo-apple').addEventListener('click', () => textarea.value = demos.apple);
@@ -65,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "> Locating available Geocities neighborhood...",
             "> Assigned: geocities.com/AgentHoot/WITSEC/protected/",
             "> Generating new identity...",
-            "> Adding visitor counter... [SET TO 000247]",
+            "> Adding visitor counter... [SET TO 000249]",
             "> WARNING: Flash Player 6.0 required for next step",
             "> Installing dancing baby GIF...",
             "> Adding Enya MIDI soundtrack...",

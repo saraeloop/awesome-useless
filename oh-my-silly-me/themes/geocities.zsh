@@ -2,7 +2,7 @@
 # geocities.zsh theme
 # Best viewed in Netscape Navigator 4.0
 
-VISITOR_COUNT=0
+VISITOR_COUNT=249
 
 if [ -n "$ZSH_VERSION" ]; then
     PROMPT='~*~ AgentH00t %~ ~*~ '
