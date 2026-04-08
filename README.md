@@ -1,3 +1,5 @@
+<div align="center">
+
 # awesome-useless ✨
 
 > A curated list of awesome useless things.
@@ -7,6 +9,8 @@
 [![maintained](https://img.shields.io/badge/maintained-probably-yellow)]()
 [![PRs](https://img.shields.io/badge/PRs-useless%20only-red)]()
 [![Agent Hoot](https://img.shields.io/badge/certified-Agent%20Hoot%20🦉-blue)]()
+
+</div>
 
 ---
 
@@ -41,6 +45,16 @@ This is not a joke. This is a public service.
 A collection of AI prompts that should not exist.
 Curated by Agent Hoot personally.
 Agent Hoot regrets all of them.
+
+---
+
+## 🧙 Spells
+
+A hidden grimoire of AI incantations. Cast them on any AI: Gemini, Claude, Codex, or other.
+
+Find them if you can.
+
+## `ls -la`
 
 ---
 
