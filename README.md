@@ -10,25 +10,37 @@
 
 ---
 
-## Contents
+## 🛠️ Tools
 
-- [oh-my-silly-me](#oh-my-silly-me) — a shell framework for the unproductive
-- [owls-witsec](#owls-witsec) — a government program hiding websites in 1997
+### oh-my-silly-me
+
+A shell framework for the unproductive.
+Like oh-my-zsh but worse in every measurable way.
+Includes themes, plugins, and a `~/.silly` config file.
+None of them work properly. This was intentional.
 
 ---
 
-## oh-my-silly-me
+## 🏛️ Projects
 
-A delightful framework for managing your silly shell configuration.
-Like oh-my-zsh but worse in every measurable way.
-
-## owls-witsec
+### owls-witsec
 
 A classified government program operated by O.W.L.S.
-(Office of Website Legacy and Safety) that protects vulnerable
-websites from modern web design by hiding them in 1997.
+(Office of Website Legacy and Safety) that protects
+vulnerable websites from modern web design by hiding
+them in 1997.
 
 This is not a joke. This is a public service.
+
+---
+
+## 🧠 Prompts
+
+### prompts-unhinged
+
+A collection of AI prompts that should not exist.
+Curated by Agent Hoot personally.
+Agent Hoot regrets all of them.
 
 ---
 
