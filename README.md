@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/glasses.png" width="150" />
+<img src="assets/awesome-useless-glasses.png" width="150" />
 
 # awesome-useless ✨
 
