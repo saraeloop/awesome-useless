@@ -69,21 +69,18 @@ We do not accept contributions that are:
 
 ---
 
-## The Peer Review Process
-
-All submissions are reviewed by Agent Hoot personally.
-Agent Hoot has been reviewing pull requests since 1997.
-Agent Hoot is tired.
-Please be kind to Agent Hoot.
-
----
-
 ## Hall of Fame
 
-| Project        | Uselessness Score | Agent Hoot Approval |
-| -------------- | ----------------- | ------------------- |
-| oh-my-silly-me | ████████░░ 99%    | 🦉 reluctantly      |
-| devCities.lol  | ██████████ 100%   | 🦉 with great pride |
+_Be the first outsider to submit something useless._
+
+| Project           | Uselessness Score | Agent Hoot Approval |
+| ----------------- | ----------------- | ------------------- |
+| oh-my-silly-me    | ████████░░ 99%    | 🦉 reluctantly      |
+| devCities.lol     | ██████████ 100%   | 🦉 with great pride |
+| your project here | ░░░░░░░░░░ ???%   | 🦉 pending review   |
+
+_Submit a PR. Add your project. Agent Hoot will judge it._
+_Agent Hoot's judgment is final._
 
 ---
 
