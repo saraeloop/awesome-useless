@@ -1,4 +1,27 @@
-/* 90s Chaos CSS */
+/* Emergency Return Button */
+.top-nav-emergency {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1001;
+}
+
+.emergency-return-btn {
+    background: #ff0000 !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    padding: 15px 30px !important;
+    font-size: 18px !important;
+    border: 5px outset #fff !important;
+    cursor: pointer !important;
+    animation: pulse-red 1s infinite alternate;
+}
+
+@keyframes pulse-red {
+    from { transform: scale(1); box-shadow: 0 0 10px #ff0000; }
+    to { transform: scale(1.1); box-shadow: 0 0 30px #ff0000; }
+}
+
 .background-controls {
     position: fixed;
     top: 10px;
