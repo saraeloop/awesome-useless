@@ -10,7 +10,7 @@
 [![PRs](https://img.shields.io/badge/PRs-useless%20only-red)]()
 [![Agent Hoot](https://img.shields.io/badge/certified-Agent%20Hoot%20🦉-blue)]()
 
-🏆 Submitted to the [DEV April Fools Challenge](https://dev.to/challenges/april-fools) · `#418challenge` · `#devchallenge`
+🏆 An entry in the [DEV April Fools Challenge](https://dev.to/challenges/april-fools) · `#418challenge` · `#devchallenge`
 
 </div>
 
@@ -31,7 +31,7 @@
 
 ## 🏛️ Projects
 
-- [devCities.lol](owls-witsec/) — Your dev portfolio. In 1997. A government owl builds your Geocities homepage from a prompt.
+- [devCities.lol](owls-witsec/) — Your dev portfolio. In 1997. A government owl builds your Devcities homepage from a prompt.
 
 ## 🧠 Prompts
 
