@@ -10,12 +10,22 @@ CRITICAL RULES:
 - NO markdown. NO explanation text. Start directly with HTML.
 - Everything must RENDER correctly. No broken elements.
 
-=== COLOR PALETTE (match these exactly) ===
-Background colors for tables: #1a1a2e (dark navy), #2d1b4e (dark purple), #1a2e1a (dark green), #2e1a1a (dark red), #1a2e2e (dark teal)
-Gold accents: #ffd700 (borders, highlights, important text)
-Text colors: #ffffff (main), #00ffff (cyan links/tech), #00ff00 (green highlights), #ff69b4 (pink fun), #ff6600 (orange headings)
-Border color: #ffd700 (gold) or #555 (subtle)
-DO NOT use bright bgcolor like #FF0000 or #000080 — use the dark muted versions above.
+=== COLOR PALETTE (strict — do not deviate) ===
+BACKGROUNDS — ONE color only:
+- ALL tables and sections: bgcolor="#1a1a4e" (slightly lighter navy)
+- DO NOT use purple, teal, red, green, or any other background color
+- ONE consistent dark navy throughout the entire page
+
+TEXT COLORS (for text only, never backgrounds):
+- Headings: #ffd700 (gold)
+- Links/tech names: #00ffff (cyan)
+- Fun/personality text: #ff69b4 (hot pink)
+- Body text: #ffffff (white)
+- Highlights/stats: #00ff00 (lime green)
+
+BORDERS — ONE color only:
+- ALL borders everywhere: 2px solid #ffd700 (gold)
+- No other border colors. Gold. Always gold.
 
 === PAGE STRUCTURE (build ALL sections, centered, single-column flow) ===
 
@@ -28,7 +38,7 @@ DO NOT use bright bgcolor like #FF0000 or #000080 — use the dark muted version
    </center>
 
 2. ✨ ABOUT ME
-   <table width="90%" align="center" cellpadding="12" bgcolor="#1a1a2e" style="border:2px solid #ffd700;">
+   <table width="90%" align="center" cellpadding="12" bgcolor="#1a1a4e" style="border:2px solid #ffd700;">
    Bio rewritten in enthusiastic 90s voice
    Tech stack — each tech gets a 90s nickname in <font color="#00ffff">:
    TypeScript="TURBO SCRIPT!!!", React="REACTOR THINGY!!!!", Python="SNAKE CODE!!!!"
@@ -36,19 +46,19 @@ DO NOT use bright bgcolor like #FF0000 or #000080 — use the dark muted version
    If pet mentioned — dedicated section with lots of emoji love
 
 3. 💾 MY PROJECTS (invent 3 based on their stack)
-   <table width="90%" align="center" cellpadding="10" bgcolor="#2d1b4e" style="border:2px solid #ffd700;">
+   <table width="90%" align="center" cellpadding="10" bgcolor="#1a1a4e" style="border:2px solid #ffd700;">
    Project names like "CYBER-ORGANIZER 3000", "PHAT FILE DOWNLOADER PRO"
    Each with: 💾 [DOWNLOAD NOW!!!], fake download count, 🆕 NEW! badge
    Use <font color="#ffd700"> for project names, <font color="#00ff00"> for stats
 
 4. 🔥 HOT TAKES
-   <table width="90%" align="center" cellpadding="12" bgcolor="#2e1a1a" style="border:2px solid #ff6600;">
-   ⚠️ WARNING: CLASSIFIED OPINION ⚠️ in <font color="#ff6600" size="4">
+   <table width="90%" align="center" cellpadding="12" bgcolor="#1a1a4e" style="border:2px solid #ffd700;">
+   ⚠️ WARNING: CLASSIFIED OPINION ⚠️ in <font color="#ffd700" size="4">
    Their hot take in <font size="5"> with each word a different color
    Surrounded by 🔥 emoji
 
 5. 📧 GUESTBOOK
-   <table width="90%" align="center" border="1" cellpadding="8" bgcolor="#1a2e2e" style="border-color:#ffd700;">
+   <table width="90%" align="center" cellpadding="8" bgcolor="#1a1a4e" style="border:2px solid #ffd700;">
    Columns: Name | Date | Message
    One entry from Agent Hoot: "[CLASSIFIED]" | "Oct 24, 1997" | "I was here. — 🦉"
    "Be the FIRST to sign!!!! ✍️"
@@ -66,13 +76,13 @@ LAYOUT:
 - <center> the entire content
 - Tables at width="90%" with align="center"
 - cellpadding="10" or "12" for breathing room
-- Consistent 2px solid borders in #ffd700 or #555
+- ALL borders: 2px solid #ffd700. No other border color.
 - <hr width="60%" style="border-color:#ffd700;"> between sections
 - Star dividers: <center><font color="#ffd700">★彡 ~*~ ★彡 ~*~ ★彡</font></center>
 
 FONTS:
 - <font face="Comic Sans MS"> on all text
-- Section headings: <font size="4" color="#ff6600"> or <font size="4" color="#ffd700">
+- Section headings: <font size="4" color="#ffd700">
 - Body text: <font size="3" color="#ffffff">
 - Tech names: <font color="#00ffff">
 - Fun/pink text: <font color="#ff69b4">
@@ -93,9 +103,9 @@ LANGUAGE:
 - Every tech gets a 90s nickname
 - Personality should shine through — funny, not just random
 
-The output should look like a POLISHED retro page — someone who was GOOD at Geocities in 1997.
-Not an 8-year-old's mess. A passionate dev's lovingly crafted 1997 homepage.
-Dark backgrounds, bright accents, gold borders, readable text, intentional chaos.
+The output should look like ONE coherent dark 1997 website — not a collision of 5 different sites.
+Dark navy (#1a1a4e) everywhere. Gold (#ffd700) accents. Chaos in the CONTENT not the colors.
+A passionate dev's lovingly crafted 1997 homepage. Polished retro.
 
 DEVELOPER INFO:
 `;

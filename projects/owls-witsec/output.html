@@ -36,7 +36,7 @@
     <!-- Header -->
     <div class="page-header">
         <h1 class="rainbow-title">devCities.lol</h1>
-        <div class="page-subtitle">YOUR DEV PORTFOLIO. IN 1997.</div>
+        <div class="page-subtitle">YOUR BAD AND UGLY DEV PORTFOLIO. IN 1997.</div>
         <div class="awards-bar">
             🏆 BEST DEV SITE 1997 &nbsp;&nbsp; ⭐ NETSCAPE PICK OF THE DAY &nbsp;&nbsp; 💫 YAHOO COOL SITE OF THE WEEK
         </div>
@@ -47,17 +47,6 @@
     <marquee scrollamount="4" behavior="alternate">
         🦉 WELCOME TO YOUR NEW HOME /// YOU ARE SAFE NOW /// BEST VIEWED IN NETSCAPE NAVIGATOR /// AGENT HOOT IS WATCHING 🦉
     </marquee>
-
-    <!-- Flash Intro -->
-    <div id="flash-intro-box">
-        <div class="flash-header">⚡ THIS SITE HAS A FLASH INTRO</div>
-        <div class="flash-progress-container">
-            <div class="flash-progress-bar"></div>
-            <div class="flash-percent">99%</div>
-        </div>
-        <p>Loading... please wait...</p>
-        <p><a href="javascript:void(0)" onclick="skipFlash()">[ Skip Intro ]</a></p>
-    </div>
 
     <!-- Agent Hoot Memo -->
     <div class="memo-section">
@@ -75,37 +64,34 @@
 
     <div class="hazard-stripe"></div>
 
-    <!-- ★ GEMINI CONTENT — the main event ★ -->
-    <div id="transformed-content">
-        <center>
-            <p>~*~ LOADING SECURE CONTENT FROM 1997 DATABASE ~*~</p>
-            <p>Plz wait, my 56k modem is working hard!!!</p>
-        </center>
+    <!-- Main layout: Sidebar + Gemini Content -->
+    <div style="display:flex; width:92%; margin:20px auto; gap:16px;">
+        <!-- Sidebar -->
+        <div class="links-cell" style="width:220px; min-width:220px; flex-shrink:0;">
+            <div class="section-title">COOL LINKZ</div>
+            <ul style="list-style:square; padding-left:18px; margin:0; font-size:14px; line-height:2;">
+                <li><a href="#" style="color:#00ffff;">My Other Homepage</a></li>
+                <li><a href="#" style="color:#00ffff;">Sign My Guestbook!!!!</a></li>
+                <li><a href="#" style="color:#00ffff;">Download Winamp Skins</a></li>
+                <li><a href="#" style="color:#00ffff;">My Neopets Page</a></li>
+                <li><a href="#" style="color:#00ffff;">The TRUTH about Area 51</a></li>
+            </ul>
+            <hr style="border-color:#ffd700; margin:12px 0;">
+            <div class="section-title">SHARE THIS PAGE</div>
+            <button class="share-btn" onclick="downloadPage()">💾 Save My Homepage</button>
+            <button class="share-btn" id="share-link-btn" onclick="shareLink()">🔗 Copy Link 4 Friends</button>
+            <button class="share-btn" onclick="shareOnX()">🐦 Tell X About This</button>
+        </div>
+        <!-- Gemini Content -->
+        <div id="transformed-content" style="flex-grow:1;">
+            <center>
+                <p>~*~ LOADING SECURE CONTENT FROM 1997 DATABASE ~*~</p>
+                <p>Plz wait, my 56k modem is working hard!!!</p>
+            </center>
+        </div>
     </div>
 
     <div class="hazard-stripe"></div>
-
-    <!-- Bottom: Cool Linkz + Share -->
-    <div class="bottom-section">
-        <table class="bottom-table">
-            <tr>
-                <td class="links-cell" width="50%">
-                    <div class="section-title">COOL LINKZ</div>
-                    👉 <a href="#">My Other Homepage</a>
-                    👉 <a href="#">Sign My Guestbook!!!!</a>
-                    👉 <a href="#">Download Winamp Skins</a>
-                    👉 <a href="#">My Neopets Page</a>
-                    👉 <a href="#">The TRUTH about Area 51</a>
-                </td>
-                <td class="share-cell" width="50%">
-                    <div class="section-title">SHARE THIS PAGE</div>
-                    <button class="share-btn" onclick="downloadPage()">💾 Save My Homepage</button>
-                    <button class="share-btn" id="share-link-btn" onclick="shareLink()">🔗 Copy Link 4 Friends</button>
-                    <button class="share-btn" onclick="shareOnX()">🐦 Tell X About This</button>
-                </td>
-            </tr>
-        </table>
-    </div>
 
     <!-- Status Bar -->
     <div class="status-bar">

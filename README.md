@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/awesome-useless-glasses.png" width="200" />
+<img src="assets/awesome-useless-glasses.png" width="250" />
 
 <br><br>
 
@@ -15,7 +15,7 @@
 A curated list of awesome useless code, tools, and resources.<br>
 Contributions welcome. Useful PRs will be rejected.
 
-🏆 An entry in the [DEV April Fools Challenge](https://dev.to/challenges/april-fools) · `#418challenge` · `#devchallenge`
+🏆 An entry in the [DEV.to April Fools Challenge](https://dev.to/challenges/april-fools) · `#418challenge` · `#devchallenge`
 
 </div>
 

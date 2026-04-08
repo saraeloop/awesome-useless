@@ -115,20 +115,15 @@ document.addEventListener("DOMContentLoaded", () => {
       // Run terminal animation and API call in parallel
       async function runTerminalAnimation(): Promise<void> {
         const lines: Array<[string, string?]> = [
+          ["> POWERED BY GEMINI 3.1 PRO \u2728", "#ffd700"],
           ["> INITIALIZING CYBER-UPLINK TO 1997..."],
-          ["> CONTACTING AGENT HOOT..."],
-          ["> Agent Hoot is asleep at his desk."],
-          ["> Agent Hoot has been woken up."],
-          ["> Agent Hoot is not happy about this."],
-          ["> Feeding Agent Hoot classified liquid (not coffee)..."],
+          ["> Waking up Agent Hoot..."],
           ["> Agent Hoot is reviewing your dossier..."],
-          ["> Agent Hoot is suspicious of your tech stack."],
-          ["> Agent Hoot has never heard of TypeScript."],
-          ["> Agent Hoot is Googling TypeScript."],
-          ["> Agent Hoot does not trust Google. Using AltaVista."],
-          ['> AltaVista has no results for "TypeScript".'],
-          ["> Agent Hoot is proceeding without understanding TypeScript."],
-          ["> This is fine.", "#ffd700"],
+          ["> Sending dossier to Gemini..."],
+          ["> Gemini is thinking..."],
+          ["> Gemini has opinions about your tech stack."],
+          ["> Gemini says your hot take is \"interesting\"."],
+          ["> Gemini is building your 1997 homepage..."],
           ["> Locating available devCities neighborhood..."],
           ["> SiliconValley/ \u2014 FULL", "red"],
           ["> Heartland/ \u2014 FULL", "red"],
@@ -137,21 +132,22 @@ document.addEventListener("DOMContentLoaded", () => {
           [`> Assigned: devCities.lol/Area51/${devName.replace(/\s+/g, "")}/`],
           ["> Installing Comic Sans... [DONE]"],
           ["> Uninstalling taste... [DONE]"],
+          ["> npm install nostalgia@1997... [DONE]"],
           ["> Adding visitor counter... [SET TO 000247]"],
-          ["> Contacting Webring administrator..."],
-          ["> Webring administrator is also Agent Hoot."],
-          ["> Agent Hoot has approved your webring application."],
-          ["> Agent Hoot is proud of you."],
-          ["> Agent Hoot will not say this again."],
           ["> Adding Enya MIDI soundtrack..."],
-          ["> Enya has been notified."],
-          ["> Enya is honored.", "#ffd700"],
+          ["> Enya has been notified. Enya is honored.", "#ffd700"],
+          ["> Deploying to GeoCities..."],
+          ["> GeoCities says: \"welcome back\"", "#ffd700"],
+          ["> Contacting Webring administrator..."],
+          ["> Webring administrator approved your application."],
+          ["> Running final vibe check..."],
+          ["> Vibe: immaculate.", "#ffd700"],
           // Overflow lines if API is slow
-          ["> Agent Hoot is still typing.", "#ffd700"],
-          ["> Agent Hoot is still typing..", "#ffd700"],
-          ["> Agent Hoot is still typing...", "#ffd700"],
-          ["> Agent Hoot types at 56k speed. Please wait.", "#ffd700"],
-          ["> Agent Hoot has been typing since 1997. Almost done.", "#ffd700"],
+          ["> Gemini is still writing HTML...", "#ffd700"],
+          ["> Gemini is adding more Comic Sans...", "#ffd700"],
+          ["> Gemini is adding MORE Comic Sans...", "#ffd700"],
+          ["> Gemini types at 56k speed. Please wait.", "#ffd700"],
+          ["> Almost done. Gemini is proud of this one.", "#ffd700"],
         ];
 
         for (const [msg, color] of lines) {
@@ -164,15 +160,11 @@ document.addEventListener("DOMContentLoaded", () => {
         callAgentHoot(description, apiKey),
       ]);
 
-      await log("> Agent Hoot has finished typing.", "#ffd700");
-      await log("> Agent Hoot needs a moment.");
-      await log("> Agent Hoot is proud of this work.");
+      await log("> Gemini has finished building your page.", "#ffd700");
+      await log("> Agent Hoot has signed the certificate.");
       await log("> YOUR 1997 IDENTITY IS READY.", "#00ff00");
-      await log(
-        "> Welcome to devCities. They will never find you here.",
-        "#00ff00"
-      );
-      await log("\u{1F989} PROTECTION GRANTED.", "#00ff00");
+      await log("> Welcome to devCities. They will never find you here.", "#00ff00");
+      await log("\u{1F989} PROTECTION GRANTED. Powered by Gemini.", "#00ff00");
 
       localStorage.setItem(STORAGE_KEYS.transformed, transformed);
       localStorage.setItem(STORAGE_KEYS.devName, devName);

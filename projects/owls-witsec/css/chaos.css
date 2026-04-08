@@ -223,7 +223,7 @@ marquee {
 }
 
 .links-cell, .share-cell {
-    background: #1a1a2e;
+    background: #1a1a4e;
     border: 2px solid #ffd700;
     padding: 16px;
     vertical-align: top;
@@ -280,7 +280,7 @@ marquee {
 }
 
 .status-item {
-    background: #1a1a2e;
+    background: #1a1a4e;
     border: 2px solid #555;
     padding: 10px 16px;
     text-align: center;

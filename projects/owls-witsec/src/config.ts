@@ -1,5 +1,5 @@
 export const GEMINI_API_URL =
-  "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
+  "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent";
 
 export const TERMINAL_LOG_DELAY_MS = 400;
 export const REDIRECT_DELAY_MS = 2000;
