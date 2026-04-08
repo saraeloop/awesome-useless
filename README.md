@@ -4,6 +4,9 @@
 
 # awesome-useless ✨
 
+A curated list of awesome useless code, tools, and resources.
+Contributions welcome. Useful PRs will be rejected.
+
 [![awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![useless](https://img.shields.io/badge/useless-100%25-brightgreen)]()
 [![maintained](https://img.shields.io/badge/maintained-probably-yellow)]()
