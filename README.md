@@ -2,13 +2,13 @@
 
 <img src="assets/awesome-useless-glasses.png" width="200" />
 
+# awesome-useless ✨
+
 [![awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![useless](https://img.shields.io/badge/useless-100%25-brightgreen)]()
 [![maintained](https://img.shields.io/badge/maintained-probably-yellow)]()
 [![PRs](https://img.shields.io/badge/PRs-useless%20only-red)]()
 [![Agent Hoot](https://img.shields.io/badge/certified-Agent%20Hoot%20🦉-blue)]()
-
-# awesome-useless ✨
 
 A curated list of awesome useless code, tools, and resources.<br>
 Contributions welcome. Useful PRs will be rejected.
