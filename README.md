@@ -1,8 +1,8 @@
 <div align="center">
-<img src="assets/awesome-useless-glasses.png" width="300" />
-# awesome-useless ✨
 
-> A curated list of awesome useless things.
+<img src="assets/glasses.png" width="150" />
+
+# awesome-useless ✨
 
 [![awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![useless](https://img.shields.io/badge/useless-100%25-brightgreen)]()
