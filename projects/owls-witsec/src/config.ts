@@ -1,31 +1,20 @@
-import type { DemoSite } from "./types";
-
 export const GEMINI_API_URL =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
-
-export const PROXY_BASE_URL = "https://api.allorigins.win/get";
 
 export const TERMINAL_LOG_DELAY_MS = 400;
 export const REDIRECT_DELAY_MS = 2000;
 export const CERTIFICATE_POPUP_DELAY_MS = 2000;
-export const MAX_PROXY_CONTENT_LENGTH = 2000;
 export const INITIAL_VISITOR_COUNT = 249;
 
 export const STORAGE_KEYS = {
   apiKey: "owls_api_key",
   transformed: "owls_transformed",
   threat: "owls_threat",
+  devName: "owls_dev_name",
   visitorCount: "owls_visitor_count",
 } as const;
 
-export const DEMO_CONTENT: Record<DemoSite, string> = {
-  apple:
-    "Apple: Think Different. Our goal is to design products that are at once beautiful and functional. The new iPhone features a Pro-grade camera system.",
-  google:
-    "Google: Our mission is to organize the world's information and make it universally accessible and useful. Search across images, news, and maps.",
-  twitter:
-    "Twitter/X: What's happening in the world and what people are talking about right now. From breaking news to entertainment, get the full story.",
-};
+export const DEMO_TEXT = `I'm Alex, a frontend developer who has strong feelings about border-radius. I build React apps and cry about CSS. My stack: TypeScript, Tailwind (I know, I know), and Redux which I don't fully understand but won't admit. Hot take: the best code is code you delete. My cat Mr. Whiskers reviews all my PRs. He has never approved one. Make it colorful and chaotic.`;
 
 /**
  * Resolve API key with priority:

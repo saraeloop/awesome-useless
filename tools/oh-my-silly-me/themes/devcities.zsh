@@ -1,5 +1,5 @@
 #!/bin/bash
-# geocities.zsh theme
+# Devcities.zsh theme
 # Best viewed in Netscape Navigator 4.0
 
 VISITOR_COUNT=249

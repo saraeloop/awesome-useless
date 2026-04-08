@@ -2,7 +2,7 @@
 
 ## A Classified Document
 
-### Clearance Level: GEOCITIES CONFIDENTIAL
+### Clearance Level: CONFIDENTIAL
 
 ---
 

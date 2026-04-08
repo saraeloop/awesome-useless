@@ -5,7 +5,7 @@
 # Path to oh-my-silly-me installation (DO NOT TOUCH)
 export SILLY_DIR="$HOME/oh-my-silly-me"
 
-# Theme: agent-hoot, geocities, dial-up
+# Theme: agent-hoot, devcities, dial-up
 export SILLY_THEME="agent-hoot"
 
 # Plugins: tamagotchi, enya, dialup, blink, spells, overcomplicate

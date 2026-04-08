@@ -71,7 +71,7 @@ including but not limited to:
 - This repository
 - Pull request comments
 - Issue discussions
-- The O.W.L.S. Geocities Witness Protection Portal
+- The O.W.L.S. Devcities Witness Protection Portal
 - Your terminal, if oh-my-silly-me is installed
 - Anywhere Agent Hoot can hear you
 - 1997

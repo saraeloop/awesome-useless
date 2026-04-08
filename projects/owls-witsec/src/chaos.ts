@@ -15,10 +15,23 @@ declare global {
 document.addEventListener("DOMContentLoaded", () => {
   const transformed = localStorage.getItem(STORAGE_KEYS.transformed);
   const threat = localStorage.getItem(STORAGE_KEYS.threat);
+  const devName = localStorage.getItem(STORAGE_KEYS.devName) ?? "Developer";
   const outputDiv = getElement<HTMLDivElement>("transformed-content");
+
+  // Personalize certificate
   const certThreat = document.getElementById("cert-threat");
+  const certDevName = document.getElementById("cert-dev-name");
+  const certPath = document.getElementById("cert-path");
+  const certName = document.getElementById("cert-name");
+  const memoSubject = document.getElementById("memo-subject");
+  const memoName = document.getElementById("memo-name");
 
   if (certThreat) certThreat.textContent = threat ?? "Classified";
+  if (certDevName) certDevName.textContent = devName;
+  if (certPath) certPath.textContent = devName.replace(/\s+/g, "").toLowerCase();
+  if (certName) certName.textContent = `"${devName}'s Kool Homepage 1997!!!!"`;
+  if (memoSubject) memoSubject.textContent = devName;
+  if (memoName) memoName.textContent = devName;
 
   // Hit counter
   const count = localStorage.getItem(STORAGE_KEYS.visitorCount) ?? "000249";
