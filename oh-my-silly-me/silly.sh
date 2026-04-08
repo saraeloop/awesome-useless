@@ -1,34 +1,55 @@
 #!/bin/bash
-
 # oh-my-silly-me core framework
 # Parody of oh-my-zsh.sh
 # Agent Hoot Approved (1997)
 
-# Load config if not already loaded (for standalone runs)
-if [[ -z "$SILLY_DIR" && -f "$HOME/.silly" ]]; then
+# 1. DETECT DIRECTORY (Top Secret)
+if [ -n "$ZSH_VERSION" ]; then
+    CURRENT_SCRIPT="${(%):-%x}"
+elif [ -n "$BASH_VERSION" ]; then
+    CURRENT_SCRIPT="${BASH_SOURCE[0]}"
+fi
+
+# Resolve the absolute path of the script's directory
+SILLY_DIR_DETECTED="$(cd "$(dirname "$CURRENT_SCRIPT")" && pwd)"
+
+# Use detected dir if the current SILLY_DIR is invalid or unset
+if [[ -z "$SILLY_DIR" || ! -d "$SILLY_DIR/plugins" ]]; then
+    export SILLY_DIR="$SILLY_DIR_DETECTED"
+fi
+
+# 2. LOAD CONFIG (Optional)
+if [ -f "$HOME/.silly" ]; then
     source "$HOME/.silly"
 fi
 
-# Set defaults if not set
-SILLY_DIR="${SILLY_DIR:-$HOME/oh-my-silly-me}"
-SILLY_THEME="${SILLY_THEME:-agent-hoot}"
-SILLY_PLUGINS="${SILLY_PLUGINS:-()}"
+# 3. INITIALIZE PLUGINS (Classified)
+# Ensure SILLY_PLUGINS is an array with valid defaults
+if [[ -z "$SILLY_PLUGINS" || "${#SILLY_PLUGINS[@]}" -eq 0 || "${SILLY_PLUGINS}" == "()" ]]; then
+    export SILLY_PLUGINS=(tamagotchi enya dialup spells overcomplicate)
+fi
 
-# Load plugins
+# 4. LOAD PLUGINS
 for plugin in "${SILLY_PLUGINS[@]}"; do
+    # Skip empty or literal "()" entries
+    if [[ -z "$plugin" || "$plugin" == "()" ]]; then continue; fi
+    
     plugin_path="$SILLY_DIR/plugins/$plugin.sh"
     if [ -f "$plugin_path" ]; then
         source "$plugin_path"
+    else
+        echo "🦉 [MEMO] Plugin $plugin not found at $plugin_path"
     fi
 done
 
-# Load theme
+# 5. LOAD THEME
+SILLY_THEME="${SILLY_THEME:-agent-hoot}"
 theme_path="$SILLY_DIR/themes/$SILLY_THEME.zsh"
 if [ -f "$theme_path" ]; then
     source "$theme_path"
 fi
 
-# Random Agent Hoot Memos
+# 6. AGENT HOOT GREETING
 HOOT_MEMOS=(
     "MEMORANDUM: We have noticed you are using a mouse. That is a security risk."
     "MEMORANDUM: The color green is now classified. Use at your own risk."

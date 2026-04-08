@@ -8,8 +8,8 @@ export SILLY_DIR="$HOME/oh-my-silly-me"
 # Theme: agent-hoot, geocities, dial-up
 export SILLY_THEME="agent-hoot"
 
-# Plugins: tamagotchi, enya, dialup, blink
-export SILLY_PLUGINS=(tamagotchi enya dialup)
+# Plugins: tamagotchi, enya, dialup, blink, spells, overcomplicate
+export SILLY_PLUGINS=(tamagotchi enya dialup spells overcomplicate)
 
 # Identity: Agent Hoot
 export SILLY_AGENT="hoot"

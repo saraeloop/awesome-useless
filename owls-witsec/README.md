@@ -20,18 +20,33 @@ Our mission: take any website and hide it in 1997 — giving it a full
 Geocities identity where no designer will ever find it.
 
 ## DEPLOYMENT TO 1997 (Installation)
-
 1. Clone this repository (if you have the clearance).
-2. Open `index.html` in a browser (Netscape Navigator 4.0 preferred).
-3. Apply for Witness Protection.
+2. `cd owls-witsec`
+3. `pnpm install` (Agent Hoot is suspicious of `node_modules`, proceed with caution).
+4. `pnpm dev` to launch the Windows 98 portal.
 
-## FIELD AGENT POSITIONS (Contributing)
+## OPERATING INSTRUCTIONS (Usage)
 
-We accept applications for field agents who can:
+### 1. Apply for Protection
+- **Paste modern content:** Enter the modern, whitespace-filled text you wish to hide.
+- **Select threat level:** Agent Hoot must know if Tailwind CSS or Figma are involved.
+- **Provide Clearance (Gemini API Key):** The key powers the Identity Reassignment Officer (Agent Hoot).
+- **Demo Mode:** Click a corporate logo to auto-fill high-contrast modern content.
 
-- Increase the blink rate of text.
-- Source higher-quality "Under Construction" GIFs.
-- Optimize the Enya MIDI player.
+### 2. Witness the Processing
+- Watch the O.W.L.S. Secure Terminal perform the relocation. 
+- Do not interrupt the 1997-era dial-up noises. This is a delicate process.
+
+### 3. Review New Identity
+- Explore your website's new 1997-era home.
+- **Background Controls:** Switch between Stars, Flames, Roses, or Skulls.
+- **Flash Intro:** Click "Skip Intro" to reveal the content after 5 seconds of loading.
+- **Agent Hoot's Memo:** Read the formal relocation memorandum.
+- **Certificate:** Review and close your official O.W.L.S. Protection Certificate.
+
+### 4. Share Safely
+- Your website is now invisible to modern designers. 
+- Sign the guestbook (mentally) and return to the HQ for more protection requests.
 
 ## SECURITY & CLEARANCE (Technical Audit)
 

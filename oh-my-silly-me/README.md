@@ -20,9 +20,26 @@ Sounds boring. Try it anyway.
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/saraeloop/awesome-useless/main/oh-my-silly-me/install.sh)"`
 
 ### Manual
-
 Don't. Just don't.
 Agent Hoot didn't write 47 lines of install script for you to do it manually.
+
+## Usage
+
+### 1. Configuration
+Edit your `~/.silly` file to customize your descent into madness:
+- Change `SILLY_THEME` to `agent-hoot`, `geocities`, or `dial-up`.
+- Add or remove `SILLY_PLUGINS` (e.g., `tamagotchi`, `enya`, `dialup`, `spells`, `overcomplicate`).
+
+### 2. Casting Spells
+If you have the `spells` plugin enabled, use the arcane power of O.W.L.S. directly:
+- `cast`: List all available AI incantations.
+- `cast <spell-name>`: Display the full prompt for copying into your favorite AI.
+
+### 3. Agent Hoot Memos
+Every time you open your terminal, Agent Hoot will deliver a [CLASSIFIED] memorandum. Please read them. He is watching.
+
+### 4. Enterprise Architecture
+With the `overcomplicate` plugin enabled, O.W.L.S. will periodically (10% chance) provide a \$2.4M enterprise roadmap for your simple shell commands. This is a mandatory efficiency measure.
 
 ## Themes
 
