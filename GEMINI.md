@@ -45,7 +45,7 @@ It contains three layers:
 
 Deadpan serious. The comedy comes from contrast.
 If the output page looks modern: wrong.
-If the intake form looks like Geocities: wrong.
+If the intake form looks like Devcities: wrong.
 
 ### Commit Message Format
 

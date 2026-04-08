@@ -20,68 +20,30 @@ Agent Hoot is in all of them.
 
 ---
 
-## 🛠️ Tools
+## Contents
 
-### [oh-my-silly-me](oh-my-silly-me/)
-
-A shell framework for the unproductive.
-Like oh-my-zsh but worse in every measurable way.
-
-```bash
-source oh-my-silly-me/silly.sh
-```
-
-```
-ksshhhhh...bing bing bing...CONNECTED AT 28.8 KBPS
-MEMORANDUM: Please report any unauthorized use of the 'Tab' key to Agent Hoot.
-🐣 [TAMAGOTCHI] is currently 0 minutes old. It is 1799 seconds from its inevitable doom.
-🦉 [CLASSIFIED] ~/your-directory $
-```
-
-Three themes. Four plugins. One `~/.silly` config file.
-None of them work properly. This was intentional.
+- [Tools](#tools)
+- [Projects](#projects)
+- [Prompts](#prompts)
+- [Spells](#spells)
 
 ---
+
+## 🛠️ Tools
+
+- [oh-my-silly-me](oh-my-silly-me/) — A shell framework for the unproductive. Like oh-my-zsh but worse in every measurable way.
 
 ## 🏛️ Projects
 
-### [devCities.lol](owls-witsec/) · [→ live demo](https://devcities.lol)
-
-Your dev portfolio. In 1997.
-
-Describe yourself to Agent Hoot. He builds you a personal DevCities homepage.
-Powered by O.W.L.S. (Office of Website Legacy and Safety) and the Gemini API.
-
-> _"I'm a frontend dev who cries about CSS. My stack is TypeScript and regret.
-> My cat Mr. Whiskers reviews all my PRs. He has never approved one."_
-
-↓ Agent Hoot reads this. Builds you a 1997 DevCities page. You get a URL. You share it.
-
-This is not a joke. This is a public service.
-
----
+- [devCities.lol](owls-witsec/) — Your dev portfolio. In 1997. A government owl builds your Geocities homepage from a prompt.
 
 ## 🧠 Prompts
 
-### [unhinged-prompts](unhinged-prompts/)
-
-A collection of AI prompts that should not exist.
-Curated by Agent Hoot personally.
-Agent Hoot regrets all of them.
-
----
+- [unhinged-prompts](unhinged-prompts/) — AI prompts that should not exist. Curated by someone who regrets all of them.
 
 ## 🧙 Spells
 
-A hidden grimoire of AI incantations.
-Cast them on any AI: Gemini, Claude, Codex, or other.
-
-```bash
-ls -la
-```
-
-You'll see things. We cannot be held responsible.
-Start with [SPELLS.md](SPELLS.md).
+- [.spells](.spells/) — A hidden grimoire. `ls -la` and you'll see things. We cannot be held responsible.
 
 ---
 

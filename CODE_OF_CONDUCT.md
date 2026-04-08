@@ -105,7 +105,7 @@ You receive it eventually.
 
 **Level 2 — Warning:**
 Agent Hoot sends you a strongly worded memorandum.
-Your Geocities page is temporarily de-protected.
+Your Devcities page is temporarily de-protected.
 The modernizers may find you.
 
 **Level 3 — Temporary Ban:**

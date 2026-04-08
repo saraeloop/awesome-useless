@@ -22,10 +22,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/saraeloop/awesome-useless/
 ```
 
 ### Manual
+
 Don't. Just don't.
 Agent Hoot didn't write 47 lines of install script for you to do it manually.
 
 But if you must:
+
 ```bash
 git clone https://github.com/saraeloop/awesome-useless.git
 cp awesome-useless/tools/oh-my-silly-me/.silly ~/.silly
@@ -36,19 +38,25 @@ source ~/.silly
 ## Usage
 
 ### 1. Configuration
+
 Edit your `~/.silly` file to customize your descent into madness:
-- Change `SILLY_THEME` to `agent-hoot`, `devcities`, or `dial-up`.
+
+- Change `SILLY_THEME` to `agent-hoot`, `Devcities`, or `dial-up`.
 - Add or remove `SILLY_PLUGINS` (e.g., `tamagotchi`, `enya`, `dialup`, `spells`, `overcomplicate`).
 
 ### 2. Casting Spells
+
 If you have the `spells` plugin enabled, use the arcane power of O.W.L.S. directly:
+
 - `cast`: List all available AI incantations.
 - `cast <spell-name>`: Display the full prompt for copying into your favorite AI.
 
 ### 3. Agent Hoot Memos
+
 Every time you open your terminal, Agent Hoot will deliver a [CLASSIFIED] memorandum. Please read them. He is watching.
 
 ### 4. Enterprise Architecture
+
 With the `overcomplicate` plugin enabled, O.W.L.S. will periodically (10% chance) provide a \$2.4M enterprise roadmap for your simple shell commands. This is a mandatory efficiency measure.
 
 ## Themes
@@ -56,7 +64,7 @@ With the `overcomplicate` plugin enabled, O.W.L.S. will periodically (10% chance
 | Theme      | Vibe       | Agent Hoot Rating          |
 | ---------- | ---------- | -------------------------- |
 | agent-hoot | classified | 🦉🦉🦉🦉🦉                 |
-| devcities  | phat       | 🦉🦉🦉                     |
+| Devcities  | phat       | 🦉🦉🦉                     |
 | dial-up    | nostalgic  | 🦉 (he's still connecting) |
 
 ### Add Your Own Theme
@@ -77,20 +85,21 @@ preexec() { echo "something silly"; }
 ```
 
 Then set it in `~/.silly`:
+
 ```bash
 export SILLY_THEME="my-theme"
 ```
 
 ## Plugins
 
-| Plugin         | What it does   | What it actually does                   |
-| -------------- | -------------- | --------------------------------------- |
-| tamagotchi     | virtual pet    | dies in 30 minutes. always dies.        |
-| enya           | error handling | replaces errors with Enya lyrics        |
-| dialup         | authenticity   | adds 3-8 second delay to every command  |
-| blink          | accessibility  | claims to blink. does not blink.        |
-| spells         | AI grimoire    | `cast` command for AI prompt templates  |
-| overcomplicate | enterprise     | 10% chance of a $2.75M roadmap          |
+| Plugin         | What it does   | What it actually does                  |
+| -------------- | -------------- | -------------------------------------- |
+| tamagotchi     | virtual pet    | dies in 30 minutes. always dies.       |
+| enya           | error handling | replaces errors with Enya lyrics       |
+| dialup         | authenticity   | adds 3-8 second delay to every command |
+| blink          | accessibility  | claims to blink. does not blink.       |
+| spells         | AI grimoire    | `cast` command for AI prompt templates |
+| overcomplicate | enterprise     | 10% chance of a $2.75M roadmap         |
 
 ### Add Your Own Plugin
 
@@ -116,6 +125,7 @@ fi
 ```
 
 Then add it to `~/.silly`:
+
 ```bash
 export SILLY_PLUGINS=(tamagotchi enya my-plugin)
 ```
@@ -126,7 +136,9 @@ Create a file in `spells/your-spell.md`:
 
 ```markdown
 # 🧙 SPELL: MY SPELL
+
 ### Cast on: Claude, Gemini, ChatGPT
+
 ### Effect: Something absurd
 
 \`\`\`
@@ -135,6 +147,7 @@ Your prompt text here
 ```
 
 Then use it:
+
 ```bash
 cast my-spell
 ```
