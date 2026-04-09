@@ -57,7 +57,7 @@ a full devcities personal homepage where no designer will ever find them.
 
 - Your portfolio is now invisible to modern designers.
 - Share the link. Let others enter witness protection too.
-- Visit [devcities.lol](https://devcities.lol) for the live experience.
+- devcities.lol is not a real domain. It never was. Agent Hoot cannot afford a `.lol` domain on a 1997 government salary. The live demo is on [GitHub Pages](https://saraeloop.github.io/awesome-useless/).
 
 ## SECURITY & CLEARANCE (Technical Audit)
 

@@ -36,7 +36,7 @@ Contributions welcome. Useful PRs will be rejected.
 
 ## 🏛️ Projects
 
-- [devCities.lol](owls-witsec/) — Your dev portfolio. In 1997. A government owl builds your Devcities homepage from a prompt.
+- [devCities](owls-witsec/) — Your dev portfolio. In 1997. A government owl builds your Devcities homepage from a prompt.
 
 ## 🧠 Prompts
 
@@ -44,7 +44,7 @@ Contributions welcome. Useful PRs will be rejected.
 
 ## 🧙 Spells
 
-- [.spells](.spells/) — A hidden grimoire. `ls -la` and you'll see things. We cannot be held responsible.
+- [.spells](.spells/) — A hidden grimoire. `ls -la` and you'll see things. Cast them on any AI: Gemini, Claude, Codex, or other. We cannot be held responsible.
 
 ---
 
