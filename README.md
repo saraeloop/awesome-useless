@@ -48,6 +48,19 @@ Contributions welcome. Useful PRs will be rejected.
 
 ---
 
+## ⚰️ Graveyard
+
+- [graveyard](graveyard/) — Where projects go to die. Even AI projects. Especially AI projects. Submit yours. Be proud.
+
+## We got assets!
+
+Free downloads. It is 1997. Everything was free.
+
+- [418 I Am A Teapot Wallpaper](assets/418-i-am-a-teapot-wallpaper.png) — tiled. for your Macintosh.
+- [HTCPCP Pocket Computer Wallpaper](assets/htcpcp-418-pocket-computer-wallpaper.png) — dramatic. for your personal digital assistant.
+- [Awesome Useless Glasses](assets/awesome-useless-glasses.png) — the vision. broken.
+- [Pocket Computer Terminals Wallpaper](assets/pocket-computer-terminals-wallpaper.png) — tiled. for your pocket computer.
+
 ## Contributing
 
 **Submit your own useless project via PR.**
