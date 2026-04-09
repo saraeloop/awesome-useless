@@ -2,9 +2,13 @@
 # tamagotchi.sh plugin
 # Agent Hoot Approved (1997)
 
-TAMAGOTCHI_BIRTH=$(date +%s)
+# Only set birth time once per session
+if [ -z "$TAMAGOTCHI_BIRTH" ]; then
+    TAMAGOTCHI_BIRTH=$(date +%s)
+    TAMAGOTCHI_IS_DEAD=false
+fi
+
 TAMAGOTCHI_HUNGER_INTERVAL=1800 # 30 mins
-TAMAGOTCHI_IS_DEAD=false
 
 tamagotchi_precmd() {
     if [ "$TAMAGOTCHI_IS_DEAD" = true ]; then
@@ -18,18 +22,20 @@ tamagotchi_precmd() {
     if [ $ELAPSED -gt $TAMAGOTCHI_HUNGER_INTERVAL ]; then
         echo "🐣 [TAMAGOTCHI] FEED ME! I'M HUNGRY!"
         echo "Feed tamagotchi? [y/n]"
-        # No actual read here, we just continue
         echo "YOU FAILED TO FEED IT IN TIME!"
         echo "💀 [TAMAGOTCHI] has died. It always dies. You cannot save it."
         TAMAGOTCHI_IS_DEAD=true
     else
-        # To make it more annoying, we tell them how long it has to live
-        echo "🐣 [TAMAGOTCHI] is currently $(($ELAPSED / 60)) minutes old. It is $(($TAMAGOTCHI_HUNGER_INTERVAL - $ELAPSED)) seconds from its inevitable doom."
+        local REMAINING=$(($TAMAGOTCHI_HUNGER_INTERVAL - $ELAPSED))
+        local MINS=$(($REMAINING / 60))
+        local SECS=$(($REMAINING % 60))
+        echo "🐣 [TAMAGOTCHI] is currently $(($ELAPSED / 60)) minutes old. It has ${MINS}m ${SECS}s until its inevitable doom."
     fi
 }
 
+# Register hook (silly.sh purges old entries before sourcing)
 if [ -n "$ZSH_VERSION" ]; then
     precmd_functions+=(tamagotchi_precmd)
 elif [ -n "$BASH_VERSION" ]; then
-    PROMPT_COMMAND="$PROMPT_COMMAND; tamagotchi_precmd"
+    PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND; }tamagotchi_precmd"
 fi

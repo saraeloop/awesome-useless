@@ -2,9 +2,23 @@
 # dialup.sh plugin
 # Agent Hoot Approved (1997)
 
-echo "ksshhhhh...bing bing bing...CONNECTED AT 28.8 KBPS"
+if [ -z "$DIALUP_LOADED" ]; then
+    echo "ksshhhhh...bing bing bing...CONNECTED AT 28.8 KBPS"
+    DIALUP_LOADED=true
+fi
 
 dialup_preexec() {
+    # Exempt cast and source commands from dialup delay
+    local cmd
+    if [ -n "$ZSH_VERSION" ]; then
+        cmd="$1"
+    else
+        cmd="$BASH_COMMAND"
+    fi
+    case "$cmd" in
+        cast*|source*) return ;;
+    esac
+
     # Random delay between 3 and 8 seconds
     DELAY=$((RANDOM % 6 + 3))
     echo "🦉 [DIALUP] Connecting... ($DELAY seconds)"
@@ -13,18 +27,14 @@ dialup_preexec() {
     # 5% chance of being disconnected
     if [ $((RANDOM % 20)) -eq 0 ]; then
         echo "A relative picked up the phone. NO CARRIER."
-        # Not exiting the shell because that would be too mean for testing,
-        # but the prompt says "Randomly disconnects you for no reason".
-        # I'll just fake a disconnect and sleep longer.
-        # Actually, let's just exit. It's the "useless" way.
+        echo "🦉 [DIALUP] Connection lost. Reconnecting..."
         sleep 2
-        exit 0
     fi
 }
 
+# Register hook (silly.sh purges old entries before sourcing)
 if [ -n "$ZSH_VERSION" ]; then
     preexec_functions+=(dialup_preexec)
 elif [ -n "$BASH_VERSION" ]; then
-    # In bash we use trap DEBUG for preexec
     trap 'dialup_preexec' DEBUG
 fi

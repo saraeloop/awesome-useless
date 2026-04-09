@@ -35,6 +35,18 @@ cp awesome-useless/tools/oh-my-silly-me/.silly ~/.silly
 source ~/.silly
 ```
 
+## Quick Start
+
+After installing, open a new terminal. That's it. Agent Hoot takes over from here.
+
+If you cloned the repo and just want to try it right now without installing:
+
+```bash
+source oh-my-silly-me/silly.sh
+```
+
+This loads the framework, all plugins, and the `cast` command into your current session. It won't survive a new terminal unless you install it properly (see above).
+
 ## Usage
 
 ### 1. Configuration
@@ -50,6 +62,18 @@ If you have the `spells` plugin enabled, use the arcane power of O.W.L.S. direct
 
 - `cast`: List all available AI incantations.
 - `cast <spell-name>`: Display the full prompt for copying into your favorite AI.
+
+#### cast gotchi
+
+Spawns a mass-produced ASCII creature in your terminal. It did not ask to exist.
+
+```bash
+cast gotchi
+```
+
+Copy the prompt into Claude or Gemini. A creature will be assigned to you at random. It has a name it did not choose, a mood it cannot change, and 30 minutes to live. Every 10 minutes it deteriorates. At 0 minutes, it dies. This is by design.
+
+There are 6 creatures. All of them are sad. None of them are copyrighted. Do not get attached.
 
 ### 3. Agent Hoot Memos
 

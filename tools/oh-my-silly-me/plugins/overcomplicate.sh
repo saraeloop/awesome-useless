@@ -4,14 +4,20 @@
 # Agent Hoot Approved (1997)
 
 overcomplicate_preexec() {
-    # Skip for internal setup
-    if [[ -z "$1" || "$1" == "preexec_bash" ]]; then
-        return
+    # Skip for internal setup and cast commands
+    local cmd
+    if [ -n "$ZSH_VERSION" ]; then
+        cmd="$1"
+    else
+        cmd="$BASH_COMMAND"
     fi
+    case "$cmd" in
+        ""|cast*|source*|preexec_bash) return ;;
+    esac
 
     # 10% chance of triggering enterprise architecture
     if [ $((RANDOM % 10)) -eq 0 ]; then
-        echo "🦉 [ENTERPRISE] Task detected: $1"
+        echo "🦉 [ENTERPRISE] Task detected: $cmd"
         echo "----------------------------------------"
         echo "🦉 [MEMORANDUM] We have reviewed your request."
         echo "A simple command execution is insufficient for O.W.L.S. standards."
@@ -36,6 +42,7 @@ overcomplicate_preexec() {
     fi
 }
 
+# Register hook (silly.sh purges old entries before sourcing)
 if [ -n "$ZSH_VERSION" ]; then
     preexec_functions+=(overcomplicate_preexec)
 elif [ -n "$BASH_VERSION" ]; then
