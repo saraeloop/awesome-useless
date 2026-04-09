@@ -32,7 +32,7 @@ Contributions welcome. Useful PRs will be rejected.
 
 ## 🛠️ Tools
 
-- [oh-my-silly-me](tools/oh-my-silly-me/) — A shell framework for the unproductive. Like oh-my-zsh but worse in every measurable way.
+- [oh-my-silly-me](tools/oh-my-silly-me/) — A shell framework for the unproductive. Like oh-my-zsh but worse in every measurable way. On purpose.
 
 ## 🏛️ Projects
 
