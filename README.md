@@ -32,15 +32,15 @@ Contributions welcome. Useful PRs will be rejected.
 
 ## 🛠️ Tools
 
-- [oh-my-silly-me](oh-my-silly-me/) — A shell framework for the unproductive. Like oh-my-zsh but worse in every measurable way.
+- [oh-my-silly-me](tools/oh-my-silly-me/) — A shell framework for the unproductive. Like oh-my-zsh but worse in every measurable way.
 
 ## 🏛️ Projects
 
-- [devCities](owls-witsec/) — Your dev portfolio. In 1997. A government owl builds your Devcities homepage from a prompt.
+- [devCities](projects/owls-witsec/) — Your dev portfolio. In 1997. A government owl builds your Devcities homepage from a prompt.
 
 ## 🧠 Prompts
 
-- [unhinged-prompts](unhinged-prompts/) — AI prompts that should not exist. Curated by someone who regrets all of them.
+- [unhinged-prompts](prompts/unhinged-prompts/) — AI prompts that should not exist. Curated by someone who regrets all of them.
 
 ## 🧙 Spells
 
