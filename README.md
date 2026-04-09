@@ -36,7 +36,7 @@ Contributions welcome. Useful PRs will be rejected.
 
 ## 🏛️ Projects
 
-- [devCities](projects/owls-witsec/) — Your dev portfolio. In 1997. A government owl builds your Devcities homepage from a prompt.
+- [devCities](projects/devcities/) — Your dev portfolio. In 1997. A government owl builds your Devcities homepage from a prompt.
 
 ## 🧠 Prompts
 

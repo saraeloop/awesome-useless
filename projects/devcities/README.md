@@ -23,7 +23,7 @@ a full devcities personal homepage where no designer will ever find them.
 
 1. Clone this repository (if you have the clearance).
 2. Get a free Gemini API key at [https://aistudio.google.com/apikey](https://aistudio.google.com/apikey)
-3. `cd projects/owls-witsec`
+3. `cd projects/devcities`
 4. `cp .env.example .env` and paste your key into `.env`
 5. `pnpm install` (Agent Hoot is suspicious of `node_modules`, proceed with caution).
 6. `pnpm dev` to launch the Windows 98 portal.

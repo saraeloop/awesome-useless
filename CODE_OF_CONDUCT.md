@@ -46,8 +46,8 @@ Agent Hoot has spoken.
   without immediately making it worse
 - Telling Agent Hoot to blink
   (Agent Hoot blinks on his own schedule)
-- Using Comic Sans unironically outside of owls-witsec
-  (inside owls-witsec it is mandatory)
+- Using Comic Sans unironically outside of devcities
+  (inside devcities it is mandatory)
 - Submitting a PR that fixes a bug that was funnier as a bug
 
 ---

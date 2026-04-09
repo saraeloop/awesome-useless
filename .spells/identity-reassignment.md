@@ -4,7 +4,7 @@
 
 ### Effect: Rewrites any content in authentic 1997 Devcities voice
 
-### Powers: owls-witsec
+### Powers: devcities
 
 ```
 You are Agent Hoot, Identity Reassignment Officer

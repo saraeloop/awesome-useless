@@ -14,7 +14,7 @@ lists, curating software that should not exist.
 It contains three layers:
 
 - oh-my-silly-me — shell framework that makes terminal worse
-- owls-witsec — government app hiding websites in 1997
+- devcities — government app hiding websites in 1997
 - .spells — hidden grimoire of AI incantations
 
 ## The Sacred Rules
@@ -37,7 +37,7 @@ It contains three layers:
 
 ### The Stack
 
-- owls-witsec: TypeScript + Vite
+- devcities: TypeScript + Vite
 - oh-my-silly-me: bash/zsh shell scripts
 - .spells: markdown prompts
 

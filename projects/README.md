@@ -4,7 +4,7 @@
 
 ## Current Entries
 
-- **[devCities.lol](owls-witsec/)** — A classified government program that relocates developers to 1997 Devcities. Powered by Agent Hoot and the Gemini API.
+- **[devCities.lol](devcities/)** — A classified government program that relocates developers to 1997 Devcities. Powered by Agent Hoot and the Gemini API.
 
 ## How to Add a Project
 

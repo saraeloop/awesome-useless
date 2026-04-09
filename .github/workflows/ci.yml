@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: projects/owls-witsec
+        working-directory: projects/devcities
 
     steps:
       - uses: actions/checkout@v4
@@ -51,7 +51,7 @@ jobs:
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: projects/owls-witsec/pnpm-lock.yaml
+          cache-dependency-path: projects/devcities/pnpm-lock.yaml
 
       - run: pnpm install --frozen-lockfile
 
