@@ -7,8 +7,7 @@
     <style>
         body {
             font-family: "Comic Sans MS", "Comic Sans", cursive;
-            background-color: #0a0a2e;
-            background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+            background-color: #008080;
             color: #fff;
             margin: 0;
             cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text y="24" font-size="24">✨</text></svg>'), auto;
@@ -22,6 +21,7 @@
     </div>
 
     <div class="background-controls">
+        <button onclick="setBG('teal')" style="background:#008080; color:#fff;">Win97</button>
         <button onclick="setBG('stars')">✨</button>
         <button onclick="setBG('flames')">🔥</button>
         <button onclick="setBG('roses')">🌹</button>
@@ -30,15 +30,15 @@
 
     <!-- GeoCities neighborhood bar -->
     <div class="neighborhood-bar">
-        You are in: <a href="#">GeoCities/SiliconValley/1997/</a> | <a href="#">Neighborhoods</a> | <a href="#">Search</a> | <a href="#">Join</a>
+        You are in: <a href="#">DevCities.lol/SiliconValley/1997/</a> | <a href="#">Neighborhoods</a> | <a href="#">Bad n' Ugly</a> | <a href="#">Join</a>
     </div>
 
     <!-- Header -->
     <div class="page-header">
         <h1 class="rainbow-title">devCities.lol</h1>
-        <div class="page-subtitle">YOUR BAD AND UGLY DEV PORTFOLIO. IN 1997.</div>
+        <div class="page-subtitle">YOUR BAD AND UGLY DEV PORTFOLIO IN 1997</div>
         <div class="awards-bar">
-            🏆 BEST DEV SITE 1997 &nbsp;&nbsp; ⭐ NETSCAPE PICK OF THE DAY &nbsp;&nbsp; 💫 YAHOO COOL SITE OF THE WEEK
+            🏆 UGLIEST DEV SITE 1997 &nbsp;&nbsp; ⭐ WORST PORTFOLIO ON THE INTERNET &nbsp;&nbsp; 💫 YAHOO "PLEASE STOP" AWARD &nbsp;&nbsp; 🦉 AGENT HOOT'S DISAPPOINTMENT BADGE
         </div>
     </div>
     <div class="hazard-stripe"></div>
@@ -48,48 +48,36 @@
         🦉 WELCOME TO YOUR NEW HOME /// YOU ARE SAFE NOW /// BEST VIEWED IN NETSCAPE NAVIGATOR /// AGENT HOOT IS WATCHING 🦉
     </marquee>
 
-    <!-- Agent Hoot Memo -->
-    <div class="memo-section">
-        <table class="memo-table">
-            <tr><td>
-                <b>MEMORANDUM</b><br><br>
-                <b>FROM:</b> Agent Hoot, O.W.L.S. Division Internet<br>
-                <b>RE:</b> <span id="memo-subject">Developer</span> has entered witness protection<br>
-                <b>DATE:</b> Oct 24, 1997
-                <hr>
-                <span id="memo-name">This developer</span> has been successfully relocated to 1997. Do not attempt to modernize them. We are watching. We are owls. We have excellent night vision. — Agent Hoot 🦉
-            </td></tr>
-        </table>
-    </div>
-
     <div class="hazard-stripe"></div>
 
     <!-- Main layout: Sidebar + Gemini Content -->
-    <div style="display:flex; width:92%; margin:20px auto; gap:16px;">
-        <!-- Sidebar -->
-        <div class="links-cell" style="width:220px; min-width:220px; flex-shrink:0;">
-            <div class="section-title">COOL LINKZ</div>
-            <ul style="list-style:square; padding-left:18px; margin:0; font-size:14px; line-height:2;">
-                <li><a href="#" style="color:#00ffff;">My Other Homepage</a></li>
-                <li><a href="#" style="color:#00ffff;">Sign My Guestbook!!!!</a></li>
-                <li><a href="#" style="color:#00ffff;">Download Winamp Skins</a></li>
-                <li><a href="#" style="color:#00ffff;">My Neopets Page</a></li>
-                <li><a href="#" style="color:#00ffff;">The TRUTH about Area 51</a></li>
-            </ul>
-            <hr style="border-color:#ffd700; margin:12px 0;">
-            <div class="section-title">SHARE THIS PAGE</div>
-            <button class="share-btn" onclick="downloadPage()">💾 Save My Homepage</button>
-            <button class="share-btn" id="share-link-btn" onclick="shareLink()">🔗 Copy Link 4 Friends</button>
-            <button class="share-btn" onclick="shareOnX()">🐦 Tell X About This</button>
-        </div>
-        <!-- Gemini Content -->
-        <div id="transformed-content" style="flex-grow:1;">
-            <center>
-                <p>~*~ LOADING SECURE CONTENT FROM 1997 DATABASE ~*~</p>
-                <p>Plz wait, my 56k modem is working hard!!!</p>
-            </center>
-        </div>
-    </div>
+    <table width="92%" align="center" cellpadding="0" cellspacing="0" style="margin:20px auto;">
+        <tr>
+            <!-- Sidebar -->
+            <td valign="top" style="background:#1a1a4e; border:2px solid #ffd700; padding:16px; width:220px; min-width:220px;">
+                <div class="section-title">COOL LINKZ</div>
+                <ul style="list-style:square; padding-left:18px; margin:0; font-size:14px; line-height:2;">
+                    <li><a href="#" style="color:#00ffff;">Sign My Guestbook!!!!</a></li>
+                    <li><a href="#" style="color:#00ffff;">Download Winamp Skins</a></li>
+                    <li><a href="#" style="color:#00ffff;">My Neopets Page</a></li>
+                    <li><a href="https://web.archive.org/web/19970126153854/http://www.thex-files.com/" style="color:#00ffff;">The TRUTH about Area 51</a></li>
+                </ul>
+                <hr style="border-color:#ffd700; margin:12px 0;">
+                <div class="section-title">SHARE THIS PAGE</div>
+                <button class="share-btn" onclick="downloadPage()">💾 Save My Homepage</button>
+                <button class="share-btn" id="share-link-btn" onclick="shareLink()">🔗 Copy Link 4 Friends</button>
+                <button class="share-btn" onclick="shareOnX()">🐦 Tell X About This</button>
+            </td>
+            <td width="16"></td>
+            <!-- Gemini Content -->
+            <td valign="top" id="transformed-content" style="background:#1a1a4e; border:2px solid #ffd700; padding:20px;">
+                <center>
+                    <p>~*~ LOADING SECURE CONTENT FROM 1997 DATABASE ~*~</p>
+                    <p>Plz wait, my 56k modem is working hard!!!</p>
+                </center>
+            </td>
+        </tr>
+    </table>
 
     <div class="hazard-stripe"></div>
 
@@ -104,6 +92,20 @@
         <div class="status-item" style="color:#808080;">
             Last updated:<br>June 14, 1998
         </div>
+    </div>
+
+     <!-- Agent Hoot Memo -->
+     <div class="memo-section">
+        <table class="memo-table">
+            <tr><td>
+                <b>MEMORANDUM</b><br><br>
+                <b>FROM:</b> Agent Hoot, O.W.L.S. Division Internet<br>
+                <b>RE:</b> <span id="memo-subject">Developer</span> has entered witness protection<br>
+                <b>DATE:</b> Oct 24, 1997
+                <hr>
+                <span id="memo-name">This developer</span> has been successfully relocated to 1997. Do not attempt to modernize them. We are watching. We are owls. We have excellent night vision. — Agent Hoot 🦉
+            </td></tr>
+        </table>
     </div>
 
     <!-- Footer -->
