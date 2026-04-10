@@ -15,7 +15,7 @@
 A curated list of awesome useless code, tools, and resources.<br>
 Contributions welcome. Useful PRs will be rejected.
 
-🏆 An entry in the [DEV.to April Fools Challenge](https://dev.to/challenges/april-fools) · `#418challenge` · `#devchallenge`
+🏆 An entry in the [DEV.to April Fools Challenge](https://dev.to/challenges) · `#418challenge` · `#devchallenge`
 
 </div>
 
@@ -52,7 +52,9 @@ Contributions welcome. Useful PRs will be rejected.
 
 - [graveyard](graveyard/) — Where projects go to die. Even AI projects. Especially AI projects. Submit yours. Be proud.
 
-## We got assets!
+---
+
+## 🖥️ Useless Downloads
 
 Free downloads. It is 1997. Everything was free.
 
