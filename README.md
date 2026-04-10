@@ -56,8 +56,6 @@ Contributions welcome. Useful PRs will be rejected.
 
 ## 🖥️ Useless Downloads
 
-Free downloads. It is 1997. Everything was free.
-
 - [418 I Am A Teapot Wallpaper](assets/418-i-am-a-teapot-wallpaper.jpg) — tiled. for your Macintosh.
 - [HTCPCP Pocket Computer Wallpaper](assets/htcpcp-418-pocket-computer-wallpaper-1997.jpg) — dramatic. for your personal digital assistant.
 - [Awesome Useless Glasses](assets/awesome-useless-glasses.png) — the vision. broken.
@@ -107,9 +105,6 @@ _Agent Hoot's judgment is final._
 ## License
 
 WTFPL — Do What The F\*\*\* You Want To Public License.
-Agent Hoot has reviewed this license.
-Agent Hoot has concerns.
-Agent Hoot's concerns are classified.
 
 ---
 
